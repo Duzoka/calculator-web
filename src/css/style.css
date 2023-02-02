@@ -1,0 +1,79 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 39, 2);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 475px;
+    max-height: 100%;
+    background-color: rgb(18, 17, 17);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 1rem 2rem;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0 0 15px;
+}
+
+.pseudo {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 31, 2);
+    border-radius:5px;
+    display: flex;
+}
+
+.pseudo .valores {
+    width: 85%;
+    height: 100%;
+    background-color: rgba(11, 19, 19, 0.29);
+    border-radius: 5px;
+    margin: 1px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pseudo .valores .nove-oito-sete {
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(22, 22, 22);
+}
+
+.pseudo .valores .seis-cinco-quatro {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(22, 22, 22);
+}
+
+.pseudo .valores .tres-dois-um {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(22, 22, 22);
+}
+
+.pseudo .valores .zero {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(22, 22, 22);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pseudo .operadores {
+    width: 15%;
+    height: 100%;
+    background-color: rgba(20, 44, 16, 0.415);
+    border-radius: 5px;
+    margin: 1px;
+}
