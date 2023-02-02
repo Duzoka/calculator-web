@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link type="image/png" sizes="16x16" rel="icon" href="./src/images/icons8-calculadora-16.png">
 
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -15,20 +16,41 @@
 <body>
     
     <main class="container">
-        <header></header>
+        <header>
+            <p id="resultado">asdad</p>
+        </header>
         <div class="pseudo">
             <div class="valores">
                 <div class="nove-oito-sete">
-                    <div class="nove"></div>
-                    <div class="oito"></div>
-                    <div class="sete"></div>
+                    <div class="number-button">7</div>
+                    <div class="number-button">8</div>
+                    <div class="number-button">9</div>
                 </div>
-                <div class="seis-cinco-quatro"></div>
-                <div class="tres-dois-um"></div>
-                <div class="zero"></div>
+                <div class="seis-cinco-quatro">
+                    <div class="number-button">4</div>
+                    <div class="number-button">5</div>
+                    <div class="number-button">6</div>
+                </div>
+                <div class="tres-dois-um">
+                    <div class="number-button">1</div>
+                    <div class="number-button">2</div>
+                    <div class="number-button">3</div>
+                </div>
+                <div class="zero">
+                    <div class="number-button">0</div>
+                    
+                </div>
             </div>
-            <div class="operadores"></div>
+            <div class="operadores">
+                <div class="operator-button" id="first">÷</div>
+                <div class="operator-button">×</div>
+                <div class="operator-button">–</div>
+                <div class="operator-button">+</div>
+                <div class="operator-button" id="last">=</div>
+            </div>
         </div>
     </main>
+
+    <script src="./src/js/JavaScript-Calculator.js"></script>
 </body>
 </html>
