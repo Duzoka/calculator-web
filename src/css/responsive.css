@@ -1,0 +1,33 @@
+@media (max-width: 375px) {
+    
+    body {
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .pseudo {
+        flex-direction: column-reverse;
+    }
+
+    .pseudo .operadores {
+        flex-direction: row;
+        width: 100%;
+        height: 21%;
+        
+    }
+
+    .pseudo .operadores .operator-button {
+        height: 100%;
+    }
+
+    .pseudo .valores {
+        width: 100%;
+        height: 79%;
+    }
+
+}
