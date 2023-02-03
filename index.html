@@ -37,17 +37,20 @@
                     <div class="number-button" onclick="insert('3')">3</div>
                 </div>
                 <div class="zero">
+
                     <div class="number-button" onclick="insert('0')">0</div>
-                    <div class="operator-button">C</div>
+                    <div class="operator-button"  style=" font-size: 30px; text-align: center;"onclick="insert('.')">.</div>
+                    <div class="operator-button" onclick="ac()">AC</div>
+                    <div class="operator-button" id="BC" onclick="bc()">BC</div>
                     
                 </div>
             </div>
             <div class="operadores">
-                <div class="operator-button" id="first">÷</div>
-                <div class="operator-button">×</div>
-                <div class="operator-button">–</div>
-                <div class="operator-button">+</div>
-                <div class="operator-button" id="last">=</div>
+                <div class="operator-button" id="first" onclick="insert('/')">÷</div>
+                <div class="operator-button" onclick="insert('*')">×</div>
+                <div class="operator-button" onclick="insert('-')">–</div>
+                <div class="operator-button" onclick="insert('+')">+</div>
+                <div class="operator-button" id="last" onclick="calc()">=</div>
             </div>
         </div>
     </main>
