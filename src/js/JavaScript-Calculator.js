@@ -4,8 +4,12 @@ function insert (num)
 {
 
 // "Variavel" irá ser igual ao valor que ao olhar o "documento", pegará o "Elemento por ID" e inserir dentro do HTML de id resultado igual a "num"
+  console.log(num)
   var numero = document.getElementById('resultado').innerHTML;
+  
   document.getElementById('resultado').innerHTML = numero + num;
+  console.log(numero)
+  
 
 }
 
